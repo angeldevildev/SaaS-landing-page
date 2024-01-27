@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Button({ text, backColor, color, bold }) {
+export default function Button({ text, backColor, color, bold, top, left }) {
   return (
     <div>
       <button
@@ -15,7 +15,9 @@ export default function Button({ text, backColor, color, bold }) {
           textTransform: "capitalize",
           backgroundColor: backColor,
           color: color,
-          fontFamily: 'Satoshi Bold'
+          fontFamily: 'Satoshi Bold',
+          marginTop: top,
+          marginLeft: left,
         }}
       >
         {text}

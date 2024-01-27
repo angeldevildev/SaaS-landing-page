@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-color: '#6640FF';
+  --color: '#6640FF';
+}
+
 @font-face {
   font-family: 'Satoshi';
   src: url('../public/assets/fonts/otf/Satoshi-Regular.otf') format('opentype');
